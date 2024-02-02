@@ -1,7 +1,9 @@
 main{
-    background-color: lightcyan;
+    background-color: lightpink;
     margin: auto;
     width: 80%;
+    border: 1px solid black;
+    
 }
 
 sup{
@@ -31,4 +33,20 @@ sup{
     border: 2px solid lightblue;
     background-color: #0492c2;
 }
+label{
+    float: center;
+}
 
+#elso label{
+    float: left;
+}
+
+fieldset{
+    width: 90%;
+    margin: auto;
+    background-color: lightblue;
+}
+.harmadik{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
